@@ -47,13 +47,13 @@ class Game{
                 cyclists[index-1].x = x;
                  cyclists[index-1].y = y;
               
-                 if(index === player.index){
+              
+            }
+           if(index === player.index){
                     image(star,cyclists[index-1].x,cyclists[index-1].y,10,10);
                     camera.position.x = displayWidth/2;
                     camera.position.y = cyclists[index-1].y;
-                    }
-            }
-            
+                    }    
         }
         
             if(keyDown("UP_ARROW") && player.index!==undefined){
