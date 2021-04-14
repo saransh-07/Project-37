@@ -6,8 +6,8 @@ var cyclists,playRef;
 playerCount=0;
   function preload(){
     track =  loadImage("track.png");
-    cyclistA = loadImage("/cyclist1.png");
-    cyclistB = loadImage("/cyclist2.png");
+    cyclistA = loadImage("./cyclist1.png");
+    cyclistB = loadImage("./cyclist2.png");
      star = loadImage("star.png");
 bg = loadImage("background.png");
   }
