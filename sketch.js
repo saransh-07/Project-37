@@ -5,9 +5,9 @@ var playerArray,cyclistA,cyclistB;
 var cyclists,playRef;
 playerCount=0;
   function preload(){
- var   track =  loadImage("track.png");
-   var cyclistA = loadImage("cyclist1.png");
-   var cyclistB = loadImage("cyclist2.png");
+   track =  loadImage("track.png");
+   cyclistA = loadImage("cyclist1.png");
+   cyclistB = loadImage("cyclist2.png");
      star = loadImage("star.png");
 bg = loadImage("background.png");
   }
